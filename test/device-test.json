@@ -258,5 +258,45 @@
             "model"   : "MI-ONE Plus",
             "type"    : "mobile"
         }
+    },
+    {
+        "desc"      : "OnePlus One",
+        "ua"        : "Mozilla/5.0 (Linux; Android 5.0.2; A0001 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.133 Mobile Safari/537.36",
+        "expect"    :
+        {
+            "vendor"  : "OnePlus",
+            "model"   : "One",
+            "type"    : "mobile"
+        }
+    },
+    {
+        "desc"      : "Samsung Galaxy Note 4",
+        "ua"        : "Mozilla/5.0 (Linux; Android 5.0.1; SM-N910V Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36",
+        "expect"    :
+        {
+            "vendor"  : "Samsung",
+            "model"   : "Galaxy Note 4",
+            "type"    : "mobile"
+        }
+    },
+    {
+        "desc"      : "Google Nexus 6",
+        "ua"        : "Mozilla/5.0 (Linux; Android 5.0; Nexus 6 Build/LRX21D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36",
+        "expect"    :
+        {
+            "vendor"  : "Google",
+            "model"   : "Nexus 6",
+            "type"    : "mobile"
+        }
+    },
+    {
+        "desc"      : "General Mobile Discovery II",
+        "ua"        : "Mozilla/5.0 (Linux; Android 4.4.2; GM Discovery II Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.59 Mobile Safari/537.36",
+        "expect"    :
+        {
+            "vendor"  : "General Mobile",
+            "model"   : "Discovery II",
+            "type"    : "mobile"
+        }
     }
 ]

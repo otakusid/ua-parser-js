@@ -600,6 +600,8 @@
             ], [[MODEL, 'Galaxy S6'], [VENDOR, 'Samsung'], [TYPE, MOBILE]],[
             /(SM-G925.)/i                                                       // Samsung Galaxy S6 Edge
             ], [[MODEL, 'Galaxy S6 Edge'], [VENDOR, 'Samsung'], [TYPE, MOBILE]],[
+            /A0001\sBuild\/LRX22G/i                                              // OnePlus One
+            ], [[MODEL, 'One'], [VENDOR, 'OnePlus'], [TYPE, MOBILE]], [
 
             /(mobile|tablet);.+rv\:.+gecko\//i                                  // Unidentifiable
           ], [[TYPE, util.lowerize], VENDOR, MODEL], [
@@ -625,8 +627,16 @@
             ], [[MODEL, 'Galaxy Tab S 10.5'], [VENDOR, 'Samsung'], [TYPE, TABLET]], [
             /(SM-G800F)/i                                                       // Samsung Galaxy S5 Mini
             ], [[MODEL, 'Galaxy S5 Mini'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
+            /(SM-N910)/i                                                        // Samsung Galaxy Note 4
+            ], [[MODEL, 'Galaxy Note 4'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
             /(SM-T311)/i                                                        // Samsung Galaxy Tab 3 8.0
             ], [[MODEL, 'Galaxy Tab 3 8.0'], [VENDOR, 'Samsung'], [TYPE, TABLET]], [
+
+            /(Nexus\s6\sBuild)/i                                                // Google Nexus 6
+            ], [[MODEL, 'Nexus 6'], [VENDOR, 'Google'], [TYPE, MOBILE]], [
+
+            /(GM\sDiscovery\sII\sBuild)/i                                       // General Mobile Discovery II
+            ], [[MODEL, 'Discovery II'], [VENDOR, 'General Mobile'], [TYPE, MOBILE]], [
 
             /(R1001)/i                                                          // Oppo R1001
             ], [MODEL, [VENDOR, 'OPPO'], [TYPE, MOBILE]], [
