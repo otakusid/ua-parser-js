@@ -602,9 +602,22 @@
             ], [[MODEL, 'Galaxy S6 Edge'], [VENDOR, 'Samsung'], [TYPE, MOBILE]],[
             /A0001\sBuild\/LRX22G/i                                              // OnePlus One
             ], [[MODEL, 'One'], [VENDOR, 'OnePlus'], [TYPE, MOBILE]], [
+            /Elephone\s(\w+)\sBuild/i                                           // Elephone
+            ], [MODEL, [VENDOR, 'Elephone'], [TYPE, MOBILE]], [
+
+            /iris700/i                                                          // AIS LAVA T 4.5
+            ], [[MODEL, 'LAVA T 4.5'], [VENDOR, 'AIS'], [TYPE, MOBILE]], [
+            /iris708/i                                                          // AIS Super Combo 4.5
+            ], [[MODEL, 'Super Combo 4.5'], [VENDOR, 'AIS'], [TYPE, MOBILE]], [
+            /iris800/i                                                          // AIS Lava 5.0
+            ], [[MODEL, 'LAVA 5.0'], [VENDOR, 'AIS'], [TYPE, MOBILE]], [
+            /iris500/i                                                          // AIS Lava G4.0
+            ], [[MODEL, 'LAVA G4.0'], [VENDOR, 'AIS'], [TYPE, MOBILE]], [
+            /iris353/i                                                          // AIS LAVA B3.5
+          ], [[MODEL, 'LAVA B3.5'], [VENDOR, 'AIS'], [TYPE, MOBILE]], [
 
             /(mobile|tablet);.+rv\:.+gecko\//i                                  // Unidentifiable
-          ], [[TYPE, util.lowerize], VENDOR, MODEL], [
+            ], [[TYPE, util.lowerize], VENDOR, MODEL], [
 
             //////////////////////////
             // TODO: move to string map
@@ -619,7 +632,7 @@
             ], [[MODEL, 'Galaxy S5'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
             /(SM-G7102)/i                                                       // Samsung Galaxy Grand 2
             ], [[MODEL, 'Galaxy Grand 2'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
-            /(SM-G530H)/i                                                       // Samsung Galaxy Grand Prime
+            /(SM-G530[F|H])/i                                                   // Samsung Galaxy Grand Prime
             ], [[MODEL, 'Galaxy Grand Prime'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
             /(SM-G313HZ)/i                                                      // Samsung Galaxy V
             ], [[MODEL, 'Galaxy V'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
