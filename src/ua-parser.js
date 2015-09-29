@@ -602,9 +602,9 @@
             ], [[MODEL, 'Galaxy S6 Edge'], [VENDOR, 'Samsung'], [TYPE, MOBILE]],[
 
             /(mobile|tablet);.+rv\:.+gecko\//i                                  // Unidentifiable
-            ], [[TYPE, util.lowerize], VENDOR, MODEL]
+          ], [[TYPE, util.lowerize], VENDOR, MODEL], [
 
-            /*//////////////////////////
+            //////////////////////////
             // TODO: move to string map
             ////////////////////////////
 
@@ -659,11 +659,11 @@
             ], [[MODEL, 'i-STYLE 2.1'], [VENDOR, 'i-mobile'], [TYPE, MOBILE]], [
 
             /(mobiistar touch LAI 512)/i                                        // mobiistar touch LAI 512
-            ], [[MODEL, 'Touch LAI 512'], [VENDOR, 'mobiistar'], [TYPE, MOBILE]], [
+            ], [[MODEL, 'Touch LAI 512'], [VENDOR, 'mobiistar'], [TYPE, MOBILE]]
 
             /////////////
             // END TODO
-            ///////////*/
+            ///////////
 
         ],
 
