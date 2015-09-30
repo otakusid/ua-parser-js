@@ -613,8 +613,19 @@
             ], [[MODEL, 'LAVA 5.0'], [VENDOR, 'AIS'], [TYPE, MOBILE]], [
             /iris500/i                                                          // AIS Lava G4.0
             ], [[MODEL, 'LAVA G4.0'], [VENDOR, 'AIS'], [TYPE, MOBILE]], [
+            /iris510/i                                                          // AIS LAVA 4.0
+            ], [[MODEL, 'LAVA 4.0'], [VENDOR, 'AIS'], [TYPE, MOBILE]], [
             /iris353/i                                                          // AIS LAVA B3.5
-          ], [[MODEL, 'LAVA B3.5'], [VENDOR, 'AIS'], [TYPE, MOBILE]], [
+            ], [[MODEL, 'LAVA B3.5'], [VENDOR, 'AIS'], [TYPE, MOBILE]], [
+            /iris360/i                                                          // AIS LAVA Iris 360 Music
+            ], [[MODEL, 'LAVA Iris 360 Music'], [VENDOR, 'AIS'], [TYPE, MOBILE]], [
+
+            /true\ssmart\s5\.0\sSlim/i                                          // True Smart 5.0 Slim
+            ], [[MODEL, 'Smart 5.0 Slim'], [VENDOR, 'True'], [TYPE, MOBILE]], [
+            /true\ssmart\s4\.0/i                                                // True Smart 4.0
+            ], [[MODEL, 'Smart 4.0'], [VENDOR, 'True'], [TYPE, MOBILE]], [
+            /true\ssmart\s3\.5/i                                                // True Smart 3.5
+            ], [[MODEL, 'Smart 3.5'], [VENDOR, 'True'], [TYPE, MOBILE]], [
 
             /(mobile|tablet);.+rv\:.+gecko\//i                                  // Unidentifiable
             ], [[TYPE, util.lowerize], VENDOR, MODEL], [
@@ -628,7 +639,7 @@
             /(C6903)/i                                                          // Sony Xperia Z 1
             ], [[MODEL, 'Xperia Z 1'], [VENDOR, 'Sony'], [TYPE, MOBILE]], [
 
-            /(SM-G900[F|H])/i                                                   // Samsung Galaxy S5
+            /(SM-G900.)/i                                                   // Samsung Galaxy S5
             ], [[MODEL, 'Galaxy S5'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
             /(SM-G7102)/i                                                       // Samsung Galaxy Grand 2
             ], [[MODEL, 'Galaxy Grand 2'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
@@ -644,6 +655,20 @@
             ], [[MODEL, 'Galaxy Note 4'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
             /(SM-T311)/i                                                        // Samsung Galaxy Tab 3 8.0
             ], [[MODEL, 'Galaxy Tab 3 8.0'], [VENDOR, 'Samsung'], [TYPE, TABLET]], [
+            /(SM-A700(\w+)\sBuild)/i                                            // Samsung Galaxy A7
+            ], [[MODEL, 'Galaxy A7'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
+            /(SM-G850.)/i                                                       // Samsung Galaxy Alpha
+            ], [[MODEL, 'Galaxy Alpha'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
+            /(SM-G360(\w+)\sBuild)/i                                            // Samsung Galaxy Core Prime
+            ], [[MODEL, 'Galaxy Core Prime'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
+            /(SM-G355.)/i                                                       // Samsung Galaxy Core 2
+            ], [[MODEL, 'Galaxy Core 2'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
+            /(SM-E500.)/i                                                       // Samsung Galaxy E5
+            ], [[MODEL, 'Galaxy E5'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
+            /(SM-A500.)/i                                                       // Samsung Galaxy A5
+            ], [[MODEL, 'Galaxy A5'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
+            /(SM-A300(\w+)\sBuild)/i                                            // Samsung Galaxy A3
+            ], [[MODEL, 'Galaxy A3'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
 
             /(Nexus\s6\sBuild)/i                                                // Google Nexus 6
             ], [[MODEL, 'Nexus 6'], [VENDOR, 'Google'], [TYPE, MOBILE]], [
@@ -659,8 +684,12 @@
             ], [[MODEL, 'Yoyo R2001'], [VENDOR, 'Oppo'], [TYPE, MOBILE]], [
             /(R815)/i                                                           // Oppo Clover R815
             ], [[MODEL, 'Clover R815'], [VENDOR, 'Oppo'], [TYPE, MOBILE]], [
-             /(U707)/i                                                          // Oppo Find Way S
+            /(R831K)/i                                                          // Oppo Neo 3
+            ], [[MODEL, 'Neo 3'], [VENDOR, 'Oppo'], [TYPE, MOBILE]], [
+            /(U707)/i                                                           // Oppo Find Way S
             ], [[MODEL, 'Find Way S'], [VENDOR, 'Oppo'], [TYPE, MOBILE]], [
+            /(N5111)/i                                                          // OPPO N1 mini
+            ], [[MODEL, 'N1 mini'], [VENDOR, 'Oppo'], [TYPE, MOBILE]], [
 
             /(T3C)/i                                                            // Advan Vandroid T3C
             ], [MODEL, [VENDOR, 'Advan'], [TYPE, TABLET]], [
