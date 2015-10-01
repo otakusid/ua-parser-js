@@ -504,6 +504,8 @@
                                                                                 // Asus Tablets
             /android.+(transfo[prime\s]{4,10}\s\w+|eeepc|slider\s\w+|nexus 7)/i
             ], [MODEL, [VENDOR, 'Asus'], [TYPE, TABLET]], [
+            /(ME173X)/i                                                         // Asus MeMO Pad HD 7
+            ], [[MODEL, 'MeMO Pad HD 7'], [VENDOR, 'Asus'], [TYPE, TABLET]], [
 
             /(sony)\s(tablet\s[ps])\sbuild\//i,                                  // Sony
             /(sony)?(?:sgp.+)\sbuild\//i
@@ -623,6 +625,8 @@
             ], [[MODEL, 'LAVA Iris 3G 354'], [VENDOR, 'AIS'], [TYPE, MOBILE]], [
             /iris405\+/i                                                        // AIS LAVA Iris 405+
             ], [[MODEL, 'LAVA Iris 405+'], [VENDOR, 'AIS'], [TYPE, MOBILE]], [
+            /iris456/i                                                          // AIS Lava Iris 456
+            ], [[MODEL, 'Lava Iris 456'], [VENDOR, 'AIS'], [TYPE, MOBILE]], [
 
             /true\ssmart\s5\.0\sSlim/i                                          // True Smart 5.0 Slim
             ], [[MODEL, 'Smart 5.0 Slim'], [VENDOR, 'True'], [TYPE, MOBILE]], [
@@ -644,8 +648,10 @@
             ], [[MODEL, 'Xperia Z 1'], [VENDOR, 'Sony'], [TYPE, MOBILE]], [
             /(E6553)/i                                                          // Sony Xperia Z3+
             ], [[MODEL, 'Xperia Z3+'], [VENDOR, 'Sony'], [TYPE, MOBILE]], [
+            /(LT25i)/i                                                          // Sony Xperia V
+            ], [[MODEL, 'Xperia V'], [VENDOR, 'Sony'], [TYPE, MOBILE]], [
 
-            /(SM-G900.)/i                                                   // Samsung Galaxy S5
+            /(SM-G900.)/i                                                       // Samsung Galaxy S5
             ], [[MODEL, 'Galaxy S5'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
             /(SM-G7102)/i                                                       // Samsung Galaxy Grand 2
             ], [[MODEL, 'Galaxy Grand 2'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
@@ -685,6 +691,9 @@
             ], [[MODEL, 'Galaxy Ace 4'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
             /(SM-J700.)/i                                                       // Samsung Galaxy J7
             ], [[MODEL, 'Galaxy J7'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
+
+            /(\sDiscovery\sBuild)/i                                             // Ainol Novo 8 Discover
+          ], [[MODEL, 'Novo 8 Discover'], [VENDOR, 'Ainol'], [TYPE, TABLET]], [
 
             /(Nexus\s6\sBuild)/i                                                // Google Nexus 6
             ], [[MODEL, 'Nexus 6'], [VENDOR, 'Google'], [TYPE, MOBILE]], [
