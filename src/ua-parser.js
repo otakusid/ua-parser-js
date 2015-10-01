@@ -663,7 +663,7 @@
             ], [[MODEL, 'Galaxy Note 5'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
             /(SM-T311)/i                                                        // Samsung Galaxy Tab 3 8.0
             ], [[MODEL, 'Galaxy Tab 3 8.0'], [VENDOR, 'Samsung'], [TYPE, TABLET]], [
-            /(SM-P601)/i                                                        // Samsung Galaxy Note 10.1
+            /(SM-P[600|601|605])/i                                                  // Samsung Galaxy Note 10.1
             ], [[MODEL, 'Galaxy Note 10.1'], [VENDOR, 'Samsung'], [TYPE, TABLET]], [
             /(SM-A700(\w+)\sBuild)/i                                            // Samsung Galaxy A7
             ], [[MODEL, 'Galaxy A7'], [VENDOR, 'Samsung'], [TYPE, MOBILE]], [
@@ -715,6 +715,10 @@
             ], [[MODEL, 'N1 mini'], [VENDOR, 'Oppo'], [TYPE, MOBILE]], [
             /(R827)/i                                                           // OPPO N1 mini
             ], [[MODEL, 'Find 5 Mini'], [VENDOR, 'Oppo'], [TYPE, MOBILE]], [
+            /(\s3006\sBuild)/i                                                  // Oppo Mirror 3
+            ], [[MODEL, 'Mirror 3'], [VENDOR, 'Oppo'], [TYPE, MOBILE]], [
+            /(X907[6|7])/i                                                      // Oppo Find 7
+            ], [[MODEL, 'Find 7'], [VENDOR, 'Oppo'], [TYPE, MOBILE]], [
 
             /(T3C)/i                                                            // Advan Vandroid T3C
             ], [MODEL, [VENDOR, 'Advan'], [TYPE, TABLET]], [
@@ -728,6 +732,8 @@
 
             /(i-mobile)\s(IQ\s[\d\.]+)/i                                        // i-mobile IQ
             ], [VENDOR, MODEL, [TYPE, MOBILE]], [
+            /(IQ\s[\d\.]+)/i                                                    // i-mobile IQ
+            ], [MODEL, [VENDOR, 'i-mobile'], [TYPE, MOBILE]], [
             /(i-mobile)\s(IQ\s.\d)/i                                            // i-mobile IQ X3
             ], [VENDOR, MODEL, [TYPE, MOBILE]], [
             /(i-mobile)\s(IQ5\.1\sPro)/i                                        // i-mobile IQ5.1 Pro
@@ -736,6 +742,8 @@
             ], [[MODEL, 'IQ 6.3'], [VENDOR, 'i-mobile'], [TYPE, MOBILE]], [
             /(i-mobile)\s(i-style\s[\d\.]+)/i                                   // i-mobile i-STYLE
             ], [VENDOR, MODEL, [TYPE, MOBILE]], [
+            /(i-style\s[\d\.]+)/i                                               // i-mobile i-STYLE
+            ], [MODEL, [VENDOR, 'i-mobile'], [TYPE, MOBILE]], [
             /(i-STYLE2.1)/i                                                     // i-mobile i-STYLE 2.1
             ], [[MODEL, 'i-STYLE 2.1'], [VENDOR, 'i-mobile'], [TYPE, MOBILE]], [
 
