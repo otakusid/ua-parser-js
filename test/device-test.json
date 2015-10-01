@@ -500,6 +500,56 @@
         }
     },
     {
+        "desc"      : "Samsung Galaxy E7",
+        "ua"        : "Mozilla/5.0 (Linux; Android 4.4.4; SM-E700F Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile Safari/537.36",
+        "expect"    :
+        {
+            "vendor"  : "Samsung",
+            "model"   : "Galaxy E7",
+            "type"    : "mobile"
+        }
+    },
+    {
+        "desc"      : "Samsung Galaxy Note 5",
+        "ua"        : "Mozilla/5.0 (Linux; Android 5.1.1; SM-N920C Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile Safari/537.36",
+        "expect"    :
+        {
+            "vendor"  : "Samsung",
+            "model"   : "Galaxy Note 5",
+            "type"    : "mobile"
+        }
+    },
+    {
+        "desc"      : "Samsung Galaxy Note 10.1",
+        "ua"        : "Mozilla/5.0 (Linux; Android 4.4.2; SM-P601 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Safari/537.36",
+        "expect"    :
+        {
+            "vendor"  : "Samsung",
+            "model"   : "Galaxy Note 10.1",
+            "type"    : "tablet"
+        }
+    },
+    {
+        "desc"      : "Samsung Galaxy Ace 4",
+        "ua"        : "Mozilla/5.0 (Linux; U; Android 4.4.2; th-th; SM-G313M Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+        "expect"    :
+        {
+            "vendor"  : "Samsung",
+            "model"   : "Galaxy Ace 4",
+            "type"    : "mobile"
+        }
+    },
+    {
+        "desc"      : "Samsung Galaxy J7",
+        "ua"        : "Mozilla/5.0 (Linux; Android 5.1.1; SM-J700F Build/LMY48B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile Safari/537.36",
+        "expect"    :
+        {
+            "vendor"  : "Samsung",
+            "model"   : "Galaxy J7",
+            "type"    : "mobile"
+        }
+    },
+    {
         "desc"      : "AIS LAVA Iris 360 Music",
         "ua"        : "Mozilla/5.0 (Linux; Android 4.4.2; iris360 Build/iris360) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36",
         "expect"    :
@@ -510,12 +560,102 @@
         }
     },
     {
+        "desc"      : "AIS LAVA Iris 3G 354",
+        "ua"        : "Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; iris354 Build/iris354) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+        "expect"    :
+        {
+            "vendor"  : "AIS",
+            "model"   : "LAVA Iris 3G 354",
+            "type"    : "mobile"
+        }
+    },
+    {
+        "desc"      : "AIS LAVA Iris 405+",
+        "ua"        : "Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; iris405+ Build/iris405+) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+        "expect"    :
+        {
+            "vendor"  : "AIS",
+            "model"   : "LAVA Iris 405+",
+            "type"    : "mobile"
+        }
+    },
+    {
         "desc"      : "Oppo N1 mini",
         "ua"        : "Mozilla/5.0 (Linux; Android 4.3; N5111 Build/JLS36C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile Safari/537.36",
         "expect"    :
         {
             "vendor"  : "Oppo",
             "model"   : "N1 mini",
+            "type"    : "mobile"
+        }
+    },
+    {
+        "desc"      : "Oppo Find 5 Mini",
+        "ua"        : "Mozilla/5.0 (Linux; Android 4.2.2; R827 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.94 Mobile Safari/537.36",
+        "expect"    :
+        {
+            "vendor"  : "Oppo",
+            "model"   : "Find 5 Mini",
+            "type"    : "mobile"
+        }
+    },
+    {
+        "desc"      : "Oppo R5",
+        "ua"        : "Mozilla/5.0 (Linux; Android 4.4.4; R8106 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36",
+        "expect"    :
+        {
+            "vendor"  : "Oppo",
+            "model"   : "R5",
+            "type"    : "mobile"
+        }
+    },
+    {
+        "desc"      : "Oppo R1",
+        "ua"        : "Mozilla/5.0 (Linux; Android 4.2.2; R829 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile Safari/537.36",
+        "expect"    :
+        {
+            "vendor"  : "Oppo",
+            "model"   : "R1",
+            "type"    : "mobile"
+        }
+    },
+    {
+        "desc"      : "Sony Xperia Z3+",
+        "ua"        : "Mozilla/5.0 (Linux; Android 5.0.2; E6553 Build/28.0.A.8.251) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile Safari/537.36",
+        "expect"    :
+        {
+            "vendor"  : "Sony",
+            "model"   : "Xperia Z3+",
+            "type"    : "mobile"
+        }
+    },
+    {
+        "desc"      : "i-mobile IQ X3",
+        "ua"        : "Mozilla/5.0 (Linux; U; Android 4.2.2; th-th; i-mobile IQ X3 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+        "expect"    :
+        {
+            "vendor"  : "i-mobile",
+            "model"   : "IQ X3",
+            "type"    : "mobile"
+        }
+    },
+    {
+        "desc"      : "i-mobile IQ5.1 Pro",
+        "ua"        : "Mozilla/5.0 (Linux; U; Android 4.1.2; th-th; i-mobile IQ5.1 Pro Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+        "expect"    :
+        {
+            "vendor"  : "i-mobile",
+            "model"   : "IQ5.1 Pro",
+            "type"    : "mobile"
+        }
+    },
+    {
+        "desc"      : "TrueCorp Beyond 3G",
+        "ua"        : "Mozilla/5.0 (Linux; U; Android 4.1.2; th-th; TRUE BEYOND 3G Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+        "expect"    :
+        {
+            "vendor"  : "TrueCorp",
+            "model"   : "Beyond 3G",
             "type"    : "mobile"
         }
     }
