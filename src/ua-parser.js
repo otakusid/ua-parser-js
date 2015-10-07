@@ -602,7 +602,7 @@
             ], [[MODEL, 'Galaxy S6'], [VENDOR, 'Samsung'], [TYPE, MOBILE]],[
             /(SM-G925.)/i                                                       // Samsung Galaxy S6 Edge
             ], [[MODEL, 'Galaxy S6 Edge'], [VENDOR, 'Samsung'], [TYPE, MOBILE]],[
-            /A0001\sBuild\/LRX22G/i                                              // OnePlus One
+            /A0001\sBuild/i                                                     // OnePlus One
             ], [[MODEL, 'One'], [VENDOR, 'OnePlus'], [TYPE, MOBILE]], [
             /Elephone\s(\w+)\sBuild/i                                           // Elephone
             ], [MODEL, [VENDOR, 'Elephone'], [TYPE, MOBILE]], [
